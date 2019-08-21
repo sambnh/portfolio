@@ -1,0 +1,29 @@
+$grey: #666;
+$yellow: rgb(226, 226, 77);
+$light-blue: rgb(126, 211, 250);
+
+body {
+  background: $grey;
+  overflow: hidden;
+  padding: 10vh 32px;
+}
+
+h1 {
+  font: 800 92px 'Lexend Deca', sans-serif;
+  color: $yellow;
+  margin: 0;
+
+  .secondary-text {
+    color: $light-blue;
+  }
+}
+a {
+  text-decoration: none;
+  color: $yellow;
+  padding: 0 8px;
+
+  &:hover {
+    color: $light-blue;
+    transition: all 0.5s ease-out;
+  }
+}
